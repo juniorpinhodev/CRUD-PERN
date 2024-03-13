@@ -6,18 +6,20 @@
 Este projeto é uma lista de tarefas simples que utiliza a stack PERN (PostgreSQL, Express, React e Node.js) para realizar as operações básicas de um CRUD (Create, Read, Update, Delete).
 
 ## Funcionalidades
-Adicionar Tarefa: Os usuários podem adicionar novas tarefas à lista.
-Editar Tarefa: É possível editar o texto de uma tarefa existente.
-Excluir Tarefa: As tarefas podem ser excluídas da lista.
-Listar Tarefas: Todas as tarefas são listadas na tela principal.
+- Adicionar Tarefa: Os usuários podem adicionar novas tarefas à lista.
+- Editar Tarefa: É possível editar o texto de uma tarefa existente.
+- Excluir Tarefa: As tarefas podem ser excluídas da lista.
+- Listar Tarefas: Todas as tarefas são listadas na tela principal.
 
-Tecnologias Utilizadas
-Frontend: React com componentes funcionais e hooks.
-Backend: Node.js e Express para criar a API RESTful.
-Banco de Dados: PostgreSQL para armazenar as tarefas.
-Gerenciamento de Estado: O estado das tarefas é gerenciado localmente no frontend.
+# Tecnologias utilizadas
+- Frontend: React com componentes funcionais e hooks, estilizado com CSS, Bootstrap e JavaScript.
+- Backend: Node.js e Express para criar a API RESTful.
+- Banco de Dados: PostgreSQL para armazenar as tarefas. Utilizou-se também o Insomnia para auxiliar na criação das requisições HTTP (POST, PUT, GET, DELETE).
+  
+## Gerenciamento de Estado
+O estado das tarefas é gerenciado localmente no frontend.
 
-## Layout Web
+### Layout Web Frontend 
 ![Web 1](https://github.com/juniorpinhodev/assets/blob/main/CrudPernTela1.png)
 
 ![Web 2](https://github.com/juniorpinhodev/assets/blob/main/CrudPernTela2.png)
@@ -26,11 +28,6 @@ Gerenciamento de Estado: O estado das tarefas é gerenciado localmente no fronte
 
 ## Diagrama
 ![Diagrama](https://github.com/juniorpinhodev/assets/blob/main/Diagrama%20Crud%20Lista%20de%20tarefas.png)
-
-# Tecnologias utilizadas
-- Frontend: React com componentes funcionais e hooks, estilizado com CSS, Bootstrap e JavaScript.
-- Backend: Node.js e Express para criar a API RESTful.
-- Banco de Dados: PostgreSQL para armazenar as tarefas. Utilizou-se também o Insomnia para auxiliar na criação das requisições HTTP (POST, PUT, GET, DELETE).
 
 # Como usar
 
