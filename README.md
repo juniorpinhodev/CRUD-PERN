@@ -155,75 +155,82 @@ const pool = new Pool({
 module.exports = pool;
 ```
 
-## Guia de instalação / como "rodar" o projeto?
+## Guia de Instalação / Como Rodar o Projeto
 
 ### Clone este repositório
 ```bash
 git clone https://github.com/juniorpinhodev/CRUD-PERN.git
 ```
- - Instale as dependências do frontend e do backend utilizando npm install dentro dos diretórios backend e frontend, respectivamente.
- - Inicie o servidor backend com 'node index.js' dentro do diretório backend.
- - Inicie o servidor frontend com 'npm start' dentro do diretório frontend.
- - Acesse o aplicativo em seu navegador em http://localhost:3000.
+### Instalando as Dependências
 
-### instalando o **Backend**
-Pré-requisitos: Node 20.10.0 ou superior
+**Backend**
+**Pré-requisitos: Node 20.10.0 ou superior**
 
-#### Entrar na pasta do projeto backend
+#### 1. Entrar na pasta do projeto backend
 ```bash
 cd backend
 ```
-#### instalar as dependências
-NPM
+#### 2. instalar as dependências
 ```bash
 npm install
 ```
-#### executar o projeto
-NPM
-```bash
-node index.js
-```
 
 
-### Instalando o **Frontend**
-Pré-requisitos: npm / yarn
+**Frontend**
+**Pré-requisitos: npm / yarn**
 
-#### entrar na pasta do projeto front end web
+#### 1. entrar na pasta do projeto frontend
 ```bash
 cd frontend
 ```
-#### instalar as dependências
-com NPM
+#### 2. instalar as dependências
+- com **npm**
 ```bash
 npm install
 ```
-OU com Yarn
+- OU com **Yarn**
 ```bash
 yarn install
 ```
-# executar o projeto
-com NPM
+## executar o projeto
+
+### Backend
+
+#### 1. Inicie o servidor **backend**
+```bash
+node index.js
+```
+### Frontend
+
+#### 1. Inicie o servidor **frontend**
+
+- com NPM
 ```bash
 npm start
 ```
-OU com Yarn
+- OU com Yarn
 ```bash
 yarn start
 ```
 
+# Acessando o Aplicativo
+Acesse o aplicativo em seu navegador em http://localhost:3000.
+
+Este guia de instalação fornece instruções claras e separadas para instalar e executar tanto o backend quanto o frontend do projeto, tornando-o mais fácil de entender e seguir.
 
 
+# Expressão de Gratidão e Contatos
+Agradeço por visualizar este projeto! Para mais informações, visite meu portfolio ou entre em contato pelo LinkedIn ou e-mail.
 
 
-
-
-# Autor
-
-Jedir de O. Pìnho Junior
+**Jedir de O. Pìnho Junior** <br>
 (Junior Pinho DEV)
 
-https://www.juniorpinho.tech <br>
+[Portfólio profissional](https://www.juniorpinho.tech) (Me conheça melhor)<br>
 
-https://www.linkedin.com/in/juniorpinhodev
+[Meu Linkedin](https://www.linkedin.com/in/juniorpinhodev) <br>
+
+[Envie um e-mail](mailto:juniorpinhodev@gmail.com)
+
 
 
