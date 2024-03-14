@@ -70,7 +70,53 @@ O diagrama abaixo visualiza esse processo de forma clara e mostra a interação 
 ![Diagrama](https://github.com/juniorpinhodev/assets/blob/main/Diagrama%20Crud%20Lista%20de%20tarefas.png)
 
 
-## Estrutura
+## Estrutura do Projeto
+O projeto está dividido em duas pastas:
+
+**Backend:** O diretório contém os arquivos relacionados ao servidor Node.js Express.
+
+- database.sql: Script SQL para criar a tabela tasks no banco de dados PostgreSQL.
+- db.js: Arquivo de configuração para conexão com o banco de dados.
+- index.js: Contém o código principal do servidor, incluindo rotas para gerenciar tarefas (POST, GET, PUT, DELETE).
+
+
+**frontend:** Diretório contendo o código da interface do usuário React.
+
+- src/App.css e src/index.css: Arquivos de estilos da aplicação.
+- src/App.js e src/index.js: Arquivos principais do frontend.
+- src/components: Pasta contendo os componentes da aplicação.
+- - components/InputTasks.js: Componente para adicionar tarefas.
+- - components/ListTasks.js: Componente para listar tarefas.
+- - components/EditTasks.js: Componente para editar tarefas.
+
+```code
+backend/
+├── database.sql
+├── db.js
+├── index.js
+└── package-lock.json
+
+frontend/
+├── src
+        ├──components
+            ├── EditTasks.js
+            ├── InputTasks.js
+            └── ListTasks.js
+        ├── App.css
+        ├── App.js
+        ├── index.css
+        └──index.js
+```
+
+
+
+
+
+
+
+
+
+
 
 
 
