@@ -44,24 +44,6 @@ Este projeto é uma lista de tarefas fullstack que utiliza a stack PERN (Postgre
 - - PostgreSQL
 - - Insomnia
 
-## Gerenciamento de Estado
-
-O estado das tarefas neste projeto é gerenciado localmente no frontend utilizando React Hooks. 
-O hook *useState* é utilizado para armazenar a lista de tarefas em um estado interno do componente *ListTasks*. 
-As funções para adicionar, editar e excluir tarefas são responsáveis por atualizar este estado, e o componente *ListTasks* re-renderiza automaticamente a lista de acordo com as mudanças no estado.
-
-**Detalhes da Implementação:**
-
-**Armazenamento do Estado:**
-A lista de tarefas é armazenada em um array dentro do estado do componente *ListTasks*.
-Cada tarefa no array é um objeto com as propriedades *id* e *description*.
-
-**Atualização do Estado:**
-A função *addTask* utiliza o hook *useState* para atualizar o estado com a nova tarefa adicionada.
-As funções *editTask* e *deleteTask* utilizam o hook *useState* para atualizar o estado com a tarefa editada ou removida, respectivamente.
-**Re-renderização:**
-O componente *ListTasks* re-renderiza automaticamente a lista de tarefas sempre que o estado interno é atualizado.
-
 ## Interface do Usuário
 
 A Interface do Usuário deste projeto consiste em um layout simples e intuitiva para gerenciar a lista de tarefas. <br>
@@ -80,6 +62,30 @@ Além disso, o modal contém dois botões: o botão vermelho "Cancelar", que fec
 
 ## Diagrama
 ![Diagrama](https://github.com/juniorpinhodev/assets/blob/main/Diagrama%20Crud%20Lista%20de%20tarefas.png)
+
+
+##Estrutura
+
+
+
+## Gerenciamento de Estado
+
+O estado das tarefas neste projeto é gerenciado localmente no frontend utilizando React Hooks. 
+O hook *useState* é utilizado para armazenar a lista de tarefas em um estado interno do componente *ListTasks*. 
+As funções para adicionar, editar e excluir tarefas são responsáveis por atualizar este estado, e o componente *ListTasks* re-renderiza automaticamente a lista de acordo com as mudanças no estado.
+
+**Detalhes da Implementação:**
+
+**Armazenamento do Estado:**
+A lista de tarefas é armazenada em um array dentro do estado do componente *ListTasks*.
+Cada tarefa no array é um objeto com as propriedades *id* e *description*.
+
+**Atualização do Estado:**
+A função *addTask* utiliza o hook *useState* para atualizar o estado com a nova tarefa adicionada.
+As funções *editTask* e *deleteTask* utilizam o hook *useState* para atualizar o estado com a tarefa editada ou removida, respectivamente.
+**Re-renderização:**
+O componente *ListTasks* re-renderiza automaticamente a lista de tarefas sempre que o estado interno é atualizado.
+
 
 # Como usar
 
