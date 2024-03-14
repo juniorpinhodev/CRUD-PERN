@@ -114,7 +114,7 @@ O estado das tarefas neste projeto é gerenciado localmente no frontend utilizan
 O hook *useState* é utilizado para armazenar a lista de tarefas em um estado interno do componente *ListTasks*. 
 As funções para adicionar, editar e excluir tarefas são responsáveis por atualizar este estado, e o componente *ListTasks* re-renderiza automaticamente a lista de acordo com as mudanças no estado.
 
-**Detalhes da Implementação:**
+#### **Detalhes da Implementação:**
 
 **Armazenamento do Estado:**
 A lista de tarefas é armazenada em um array dentro do estado do componente *ListTasks*.
@@ -127,74 +127,8 @@ As funções *editTask* e *deleteTask* utilizam o hook *useState* para atualizar
 O componente *ListTasks* re-renderiza automaticamente a lista de tarefas sempre que o estado interno é atualizado.
 
 
-# Como usar
-
-## Clone este repositório
-```bash
-git clone https://github.com/juniorpinhodev/CRUD-PERN.git
-```
-#### - Instale as dependências do frontend e do backend utilizando npm install dentro dos diretórios backend e frontend, respectivamente.
-#### - Inicie o servidor backend com 'node index.js' dentro do diretório backend.
-#### - Inicie o servidor frontend com 'npm start' dentro do diretório frontend.
-#### - Acesse o aplicativo em seu navegador em http://localhost:3000.
-
-## Backend
-Pré-requisitos: Node 20.10.0 ou superior
-
-# Entrar na pasta do projeto backend
-```bash
-cd backend
-```
-# instalar as dependências
-com NPM
-```bash
-npm install
-```
-OU com Yarn
-```bash
-yarn install
-```
-# executar o projeto
-com NPM
-```bash
-node index.js
-```
-
-
-## Frontend
-Pré-requisitos: npm / yarn
-
-# entrar na pasta do projeto front end web
-```bash
-cd frontend
-```
-# instalar as dependências
-com NPM
-```bash
-npm install
-```
-OU com Yarn
-```bash
-yarn install
-```
-# executar o projeto
-com NPM
-```bash
-npm start
-```
-OU com Yarn
-```bash
-yarn start
-```
-
-# Estrutura do Projeto
-- frontend/src/components/InputTasks.js: Componente para adicionar novas tarefas.
-- frontend/src/components/EditTasks.js: Componente para editar tarefas existentes.
-- frontend/src/components/ListTasks.js: Componente para exibir a lista de tarefas e interagir com elas.
-- backend/index.js: Servidor Express que define as rotas da API RESTful para manipulação das tarefas no banco de dados.
-
-# Configuração do Banco de Dados
-### Para configurar o banco de dados PostgreSQL para este projeto, siga os passos abaixo:
+## Configuração do Banco de Dados
+#### Para configurar o banco de dados PostgreSQL para este projeto, siga os passos abaixo:
 #### Crie um novo banco de dados com o nome taskspern_db:
 ´´´SQL
 CREATE DATABASE taskspern_db;
@@ -220,6 +154,66 @@ const pool = new Pool({
 
 module.exports = pool;
 ```
+
+## Guia de instalação / como "rodar" o projeto?
+
+### Clone este repositório
+```bash
+git clone https://github.com/juniorpinhodev/CRUD-PERN.git
+```
+ - Instale as dependências do frontend e do backend utilizando npm install dentro dos diretórios backend e frontend, respectivamente.
+ - Inicie o servidor backend com 'node index.js' dentro do diretório backend.
+ - Inicie o servidor frontend com 'npm start' dentro do diretório frontend.
+ - Acesse o aplicativo em seu navegador em http://localhost:3000.
+
+### instalando o **Backend**
+Pré-requisitos: Node 20.10.0 ou superior
+
+#### Entrar na pasta do projeto backend
+```bash
+cd backend
+```
+#### instalar as dependências
+NPM
+```bash
+npm install
+```
+#### executar o projeto
+NPM
+```bash
+node index.js
+```
+
+
+### Instalando o **Frontend**
+Pré-requisitos: npm / yarn
+
+#### entrar na pasta do projeto front end web
+```bash
+cd frontend
+```
+#### instalar as dependências
+com NPM
+```bash
+npm install
+```
+OU com Yarn
+```bash
+yarn install
+```
+# executar o projeto
+com NPM
+```bash
+npm start
+```
+OU com Yarn
+```bash
+yarn start
+```
+
+
+
+
 
 
 
