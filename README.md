@@ -44,19 +44,39 @@ Este projeto é uma lista de tarefas fullstack que utiliza a stack PERN (Postgre
 - - PostgreSQL
 - - Insomnia
 
-
-
-
-
 ## Gerenciamento de Estado
-O estado das tarefas é gerenciado localmente no frontend.
 
-### Layout Web Frontend 
-![Web 1](https://github.com/juniorpinhodev/assets/blob/main/CrudPernTela1.png)
+O estado das tarefas neste projeto é gerenciado localmente no frontend utilizando React Hooks. 
+O hook *useState* é utilizado para armazenar a lista de tarefas em um estado interno do componente *ListTasks*. 
+As funções para adicionar, editar e excluir tarefas são responsáveis por atualizar este estado, e o componente *ListTasks* re-renderiza automaticamente a lista de acordo com as mudanças no estado.
 
-![Web 2](https://github.com/juniorpinhodev/assets/blob/main/CrudPernTela2.png)
+**Detalhes da Implementação:**
 
-![Web 3](https://github.com/juniorpinhodev/assets/blob/main/CrudPernTela3.png)
+**Armazenamento do Estado:**
+A lista de tarefas é armazenada em um array dentro do estado do componente *ListTasks*.
+Cada tarefa no array é um objeto com as propriedades *id* e *description*.
+
+**Atualização do Estado:**
+A função *addTask* utiliza o hook *useState* para atualizar o estado com a nova tarefa adicionada.
+As funções *editTask* e *deleteTask* utilizam o hook *useState* para atualizar o estado com a tarefa editada ou removida, respectivamente.
+**Re-renderização:**
+O componente *ListTasks* re-renderiza automaticamente a lista de tarefas sempre que o estado interno é atualizado.
+
+## Interface do Usuário
+
+A Interface do Usuário deste projeto consiste em um layout simples e intuitiva para gerenciar a lista de tarefas. <br>
+Ao acessar a tela principal, o usuário encontra uma caixa de texto onde pode digitar uma nova tarefa e um botão verde "Adicionar" para inserir a tarefa na lista. <br> <br>
+Cada item da lista é exibido logo abaixo da caixa de texto, com dois botões associados a ele: um botão amarelo "Editar" e um botão vermelho "Deletar". <br>
+Esses botões permitem que o usuário edite o texto da tarefa ou a remova da lista, respectivamente. <br> <br>
+![Web 1](https://github.com/juniorpinhodev/assets/blob/main/CrudPernTela1.png) <br> <br>
+
+Quando o usuário decide editar uma tarefa, ele clica no botão "Editar" e um modal se abre. O modal exibe um campo de texto com o texto atual da tarefa, permitindo que o usuário faça a correção. <br>
+Além disso, o modal contém dois botões: o botão vermelho "Cancelar", que fecha o modal sem fazer alterações, e o botão azul "Confirmar", que salva as alterações feitas na tarefa. <br> <br>
+![Web 2](https://github.com/juniorpinhodev/assets/blob/main/CrudPernTela2.png) <br> <br>
+
+
+
+
 
 ## Diagrama
 ![Diagrama](https://github.com/juniorpinhodev/assets/blob/main/Diagrama%20Crud%20Lista%20de%20tarefas.png)
