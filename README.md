@@ -1,21 +1,53 @@
-# Lista de Tarefas (CRUD) com PERN Stack
+# **Lista de Tarefas (CRUD) com PERN Stack**
 
 
 # Sobre o projeto
 
-Este projeto é uma lista de tarefas simples que utiliza a stack PERN (PostgreSQL, Express, React e Node.js) para realizar as operações básicas de um CRUD (Create, Read, Update, Delete).
+Este projeto é uma lista de tarefas fullstack que utiliza a stack PERN (PostgreSQL, Express, React e Node.js) para realizar as operações básicas de um CRUD (Create, Read, Update, Delete).
 
-## Funcionalidades
-- Adicionar Tarefa: Os usuários podem adicionar novas tarefas à lista.
-- Editar Tarefa: É possível editar o texto de uma tarefa existente.
-- Excluir Tarefa: As tarefas podem ser excluídas da lista.
-- Listar Tarefas: Todas as tarefas são listadas na tela principal.
+## O que é CRUD?
+**CRUD é um acrônimo para:**
 
-# Tecnologias utilizadas
-- Frontend: React com componentes funcionais e hooks, estilizado com CSS, Bootstrap e JavaScript.
-- Backend: Node.js e Express para criar a API RESTful.
-- Banco de Dados: PostgreSQL para armazenar as tarefas. Utilizou-se também o Insomnia para auxiliar na criação das requisições HTTP (POST, PUT, GET, DELETE).
-  
+- C - Create (Criar): Criar novos registros ou entidades no banco de dados.
+- R - Read (Ler): Ler ou recuperar registros ou entidades do banco de dados.
+- U - Update (Atualizar): Atualizar registros ou entidades existentes no banco de dados.
+- D - Delete (Excluir): Excluir registros ou entidades existentes no banco de dados.
+
+## O que é PERN?
+**PERN é um acrônimo para:**
+
+- P - PostgreSQL: Banco de dados relacional
+- E - Express.js: Framework Node.js para desenvolvimento de APIs
+- R - React.js: Biblioteca JavaScript para construir interfaces de usuário
+- N - Node.js: Ambiente de execução JavaScript do lado do servidor
+
+
+## Funcionalidades do projeto
+- **Adicionar Tarefa:** Os usuários podem adicionar novas tarefas à lista.
+- **Editar Tarefa:** É possível editar o texto de uma tarefa existente.
+- **Excluir Tarefa:** As tarefas podem ser excluídas da lista.
+- **Listar Tarefas:** Todas as tarefas são listadas na tela principal.
+
+## Tecnologias utilizadas
+- **Frontend:** *React* com componentes funcionais e hooks, estilizado com *CSS*, *Bootstrap* e *JavaScript*.
+- - React.js
+- - Javascript
+- - JSX
+- - CSS
+- - Bootstrap
+
+- **Backend:** *Node.js* e *Express* para criar a API RESTful.
+- - Node.js
+- - Express.js
+
+- **Banco de Dados:** *PostgreSQL* para armazenar as tarefas. Utilizou-se também o *Insomnia* para auxiliar na criação das requisições HTTP (POST, PUT, GET, DELETE).
+- - PostgreSQL
+- - Insomnia
+
+
+
+
+
 ## Gerenciamento de Estado
 O estado das tarefas é gerenciado localmente no frontend.
 
