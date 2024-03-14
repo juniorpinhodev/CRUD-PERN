@@ -93,11 +93,11 @@ O projeto está dividido em duas pastas:
 backend/
 ├── database.sql
 ├── db.js
-├── index.js
-└── package-lock.json
+└──index.js
+ 
 
 frontend/
-├── src
+└── src
         ├──components
             ├── EditTasks.js
             ├── InputTasks.js
@@ -107,18 +107,6 @@ frontend/
         ├── index.css
         └──index.js
 ```
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Gerenciamento de Estado
 
