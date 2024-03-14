@@ -60,11 +60,17 @@ Além disso, o modal contém dois botões: o botão vermelho "Cancelar", que fec
 
 
 
-## Diagrama
+## Diagrama do Projeto
+O diagrama do projeto ilustra o fluxo de dados entre o frontend e o backend da aplicação. 
+Ao preencher a caixa de texto e clicar no botão "Adicionar", uma requisição POST é enviada para o backend através do protocolo HTTP. O backend recebe essa requisição, adiciona um novo item à lista de tarefas e o armazena no banco de dados PostgreSQL.
+
+Para as operações de editar, deletar e exibir na tela, o fluxo é semelhante: uma requisição é enviada do frontend para o backend, que realiza as operações necessárias no banco de dados e retorna os dados atualizados para o frontend.
+
+O diagrama abaixo visualiza esse processo de forma clara e mostra a interação entre as diferentes partes da aplicação, destacando a comunicação entre frontend, backend e banco de dados. <br> <br>
 ![Diagrama](https://github.com/juniorpinhodev/assets/blob/main/Diagrama%20Crud%20Lista%20de%20tarefas.png)
 
 
-##Estrutura
+## Estrutura
 
 
 
