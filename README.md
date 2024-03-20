@@ -49,11 +49,11 @@ A Interface do Usuário deste projeto consiste em um layout simples e intuitiva 
 Ao acessar a tela principal, o usuário encontra uma caixa de texto onde pode digitar uma nova tarefa e um botão verde "Adicionar" para inserir a tarefa na lista. <br> <br>
 Cada item da lista é exibido logo abaixo da caixa de texto, com dois botões associados a ele: um botão amarelo "Editar" e um botão vermelho "Deletar". <br>
 Esses botões permitem que o usuário edite o texto da tarefa ou a remova da lista, respectivamente. <br> <br>
-![Web 1](https://github.com/juniorpinhodev/assets/blob/main/CrudPernTela1.png) <br> <br>
+![Web 1](https://github.com/juniorpinhodev/assets/blob/main/IMG_CRUD_PERN/layout1.png) <br> <br>
 
 Quando o usuário decide editar uma tarefa, ele clica no botão "Editar" e um modal se abre. O modal exibe um campo de texto com o texto atual da tarefa, permitindo que o usuário faça a correção. <br>
 Além disso, o modal contém dois botões: o botão vermelho "Cancelar", que fecha o modal sem fazer alterações, e o botão azul "Confirmar", que salva as alterações feitas na tarefa. <br> <br>
-![Web 2](https://github.com/juniorpinhodev/assets/blob/main/CrudPernTela2.png) <br> <br>
+![Web 2](https://github.com/juniorpinhodev/assets/blob/main/IMG_CRUD_PERN/layout2.png) <br> <br>
 
 
 
