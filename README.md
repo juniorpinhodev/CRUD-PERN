@@ -225,7 +225,7 @@ Agradeço por visualizar este projeto! Para mais informações, visite meu portf
 **Jedir de O. Pìnho Junior** <br>
 (Junior Pinho DEV)
 
-[Portfólio profissional](https://www.juniorpinho.tech) (Me conheça melhor)<br>
+[Portfólio profissional](https://www.juniorpinho.DEV) (Me conheça melhor)<br>
 
 [Meu Linkedin](https://www.linkedin.com/in/juniorpinhodev) <br>
 
