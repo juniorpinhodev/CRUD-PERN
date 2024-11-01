@@ -144,11 +144,11 @@ Configure a conexão com o banco de dados no arquivo backend/db.js:
 const Pool = require("pg").Pool;
 
 const pool = new Pool({
-  user: "postgres",
-  password: "admin",
+  user: "SEU_USUARIO",
+  password: "SUA_SENHA",
   host: "localhost",
   port: 5432,
-  database: "taskspern_db"
+  database: "SEU_DATABASE"
 });
 
 module.exports = pool;
